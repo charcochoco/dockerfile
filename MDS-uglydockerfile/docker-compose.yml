@@ -1,0 +1,8 @@
+version: '3'
+services:
+  nodejs-app:
+    build:
+      context: .
+    ports:
+      - "8000:80"
+    image: "uglydockerfile"
